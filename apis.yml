@@ -1,8 +1,26 @@
 aid: invisible-universe
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/invisible-universe.png
 name: Invisible Universe
-description: 'Invisible Universe is a company surfaced as a portfolio company of initialized-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Invisible Universe is a consumer entertainment company building AI-powered
+  animated intellectual property for social platforms — described by FastCompany as
+  "building the Pixar of the internet one TikTok at a time." It has launched multiple
+  animated franchises reaching millions of followers and billions of views across
+  TikTok, Instagram, and YouTube, and created Invisible Studio, a proprietary AI engine
+  that compresses short-form animated content production from weeks to hours. Backed
+  by Initialized Capital, it operates in the consumer/media sector. This profile was
+  added to the API Evangelist network as a venture-portfolio lead; as of this pass
+  the company publishes no public developer platform, API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/invisible-universe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Entertainment
+- Media
+- Animation
+- AI
+- Content Creation
+- Intellectual Property
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://invisibleuniverse.com/
+  url: https://www.invisibleuniverse.com/
+- type: About
+  url: https://www.invisibleuniverse.com/aboutus
+- type: SocialLinkedIn
+  url: https://www.linkedin.com/company/invisible-univ/
+- type: SocialYouTube
+  url: https://www.youtube.com/@invisibleuniverse
+- type: SocialInstagram
+  url: https://www.instagram.com/invisibleuniverse/
+- type: SocialX
+  url: https://x.com/invisibleuniv
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
